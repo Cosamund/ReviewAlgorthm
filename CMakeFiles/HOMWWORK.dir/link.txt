@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/HOMWWORK.dir/al_6_14.cpp.o CMakeFiles/HOMWWORK.dir/al_6_27.cpp.o CMakeFiles/HOMWWORK.dir/main.cpp.o  -o HOMWWORK -rdynamic 
