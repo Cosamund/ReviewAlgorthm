@@ -13,7 +13,7 @@ public:
   CMergeSort(const vector<int>& vec);
 
   void MergeSort(vector<int>& A, int low, int high);
-  void MergeSort614();
+  void KWayMergeSort(vector<int>& A, int low, int high);
 protected:
   void Merge(vector<int>&A, int low, int mid, int high);
 private:

@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/roger/Github/al_6_14.cpp
-al_6_14.hpp
-/home/roger/Github/al_6_14.hpp
-
 /home/roger/Github/al_6_14.hpp
 iostream
 -
 vector
+-
+
+/home/roger/Github/al_6_27.hpp
+
+/home/roger/Github/main.cpp
+al_6_14.hpp
+/home/roger/Github/al_6_14.hpp
+al_6_27.hpp
+/home/roger/Github/al_6_27.hpp
+stdlib.h
 -
 

@@ -6,12 +6,12 @@ void Dump(vector<int>& vec, int num)
 {
   vector<int>::iterator it;
   int i = 0;
-  cout<<"start"<<endl;
+  cout<<">start"<<endl;
   for (i =0, it = vec.begin(); (i<num) && (it < vec.end()); it++, i++)
   {
     cout <<*it <<endl;
   }
-  cout<<"end"<<endl;
+  cout<<"<end"<<endl;
 }
 
 
@@ -26,9 +26,11 @@ int main()
   {
     vec.push_back(static_cast<unsigned short>(rand()));
   }
-  Dump(vec, 10);
-  sort.MergeSort(vec, 0, 9);
-
-  Dump(vec, 10);
+  //Dump(vec, 10);
+  //sort.MergeSort(vec, 0, 9);
+  //Dump(vec, 10);
+  Dump(vec, 12);
+  sort.KWayMergeSort(vec, 0, 11);
+  Dump(vec, 12);
   return 0;
 }
