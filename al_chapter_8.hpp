@@ -11,5 +11,5 @@ class CGreedyAlgorithm
 public:
  void MergeArrayHuffman(vector<type>& ar);
   
-
+  void Kruskal(vector<type>& node)
 };
