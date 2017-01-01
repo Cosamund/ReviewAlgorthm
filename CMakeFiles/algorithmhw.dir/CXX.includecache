@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roger/Github/chapter4.cpp
+chapter4.hpp
+/home/roger/Github/chapter4.hpp
+stdlib.h
+-
+time.h
+-
+
+/home/roger/Github/chapter4.hpp
+vector
+-
+string
+-
+iostream
+-
+

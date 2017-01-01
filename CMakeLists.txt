@@ -1,6 +1,3 @@
 PROJECT(MERGESORT_HOMEWORK)
-#set(CMAKE_BUILD_TYPE "Debug")
-#set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
-#set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
-SET(HOMEWORK_SRCS al_6_14.cpp al_6_27.cpp al_chapter_8.cpp main.cpp )
-ADD_EXECUTABLE (HOMWWORK ${HOMEWORK_SRCS})
+SET(HOMEWORK_SRCS chapter1.cpp chapter2.cpp  chapter4.cpp chapter5.cpp chapter6.cpp chapter7.cpp chapter8.cpp main.cpp )
+ADD_EXECUTABLE (algorithmhw ${HOMEWORK_SRCS})

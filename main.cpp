@@ -1,36 +1,24 @@
-#include "al_6_14.hpp"
-#include "al_6_27.hpp"
+#include <iostream>
+#include <vector>
+#include <string>
 #include <stdlib.h>
+#include "main.hpp"
 
-void Dump(vector<int>& vec, int num)
+using namespace std;
+
+const char* keys =
 {
-  vector<int>::iterator it;
-  int i = 0;
-  cout<<">start"<<endl;
-  for (i =0, it = vec.begin(); (i<num) && (it < vec.end()); it++, i++)
-  {
-    cout <<*it <<endl;
-  }
-  cout<<"<end"<<endl;
+    "{1| |lena.jpg|input image file}"
+};
+
+CommandLineParser::CommandLineParser(int argc, const char* const argv[], const char* keys)
+{
+  ;
 }
 
-
-int main()
+int main(int argc, char** argv)
 {
-  CMergeSort sort;
+  CommandLineParser parse(argc, argv, keys);
 
-  vector<int> vec;
-  vec.clear();
-  srand((unsigned)time(NULL));
-  for (int i = 0; i < 100; i++)
-  {
-    vec.push_back(static_cast<unsigned short>(rand()));
-  }
-  //Dump(vec, 10);
-  //sort.MergeSort(vec, 0, 9);
-  //Dump(vec, 10);
-  Dump(vec, 12);
-  sort.KWayMergeSort(vec, 0, 11);
-  Dump(vec, 12);
   return 0;
 }

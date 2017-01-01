@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roger/Github/main.cpp
+iostream
+-
+vector
+-
+string
+-
+stdlib.h
+-
+main.hpp
+/home/roger/Github/main.hpp
+
+/home/roger/Github/main.hpp
+
